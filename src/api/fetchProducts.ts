@@ -1,4 +1,4 @@
-export const fetchProducts = async ({queryKey}) => {
+export const fetchProducts = async () => {
     const apiRes = await fetch('https://dummyjson.com/products');
 
     if(!apiRes.ok){
